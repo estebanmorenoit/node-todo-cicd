@@ -2,6 +2,8 @@ version: '3.9'
 
 services:
   web:
+    container_name: node-app-test
     image: "trainwithshubham/node-app-test-new:latest"
+    restart: unless-stopped
     ports:
       - "8001:8000"
