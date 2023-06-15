@@ -3,7 +3,7 @@ version: '3.9'
 services:
   web:
     container_name: node-app-test
-    image: "trainwithshubham/node-app-test-new:latest"
+    image: "estebanmorenoit/node-todo-cicd:latest"
     restart: unless-stopped
     ports:
       - "8001:8000"
